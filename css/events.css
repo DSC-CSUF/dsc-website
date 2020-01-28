@@ -5,3 +5,12 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+.bold-text {
+    font-weight: bold;
+}
+
+.logistics-info {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
