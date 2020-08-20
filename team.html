@@ -169,14 +169,21 @@
             fab fa-instagram social-icons
         -->
 
+        <!-- tab toggle -->
+                            <div class="tab">
+                               <button class="tablinks" onclick="openInfo(event, '2020-2021')" id="defaultOpen">2020-2021 Team</button>
+                               <button class="tablinks" onclick="openInfo(event, '2019-2020')">2019-2020 Team</button>
+                             </div>
+         <!-- tab toggle end -->
 
 
 <!-- 2020-2021 team - will need to put in toggle for the different years -->
+<div id="2020-2021" class= "tabcontent">  <!-- 2020-2021 toggle begin -->
 
         <div class="team-roster-section">
             <div class="container">
-                <h2 class="team-roster-title center-align">Core Team</h2>
-                <h3> 2020-2021 will remove </h3>
+                <h2 class="team-roster-title center-align">2020-2021 Core Team</h2>
+
 
                 <div class="row"> <!-- Top row -->
                     <div class="col s12 m8 offset-m2 l4 offset-l4">
@@ -458,12 +465,14 @@
                         </div>
                     </div>
 
+                  </div>
+              </div>
+</div> <!-- end 2020-2021 tab -->
 
-
-
+<div id="2019-2020" class = "tabcontent">
 
                 <!-- 2019-2020 TEAMS -->
-                <h3> 2019-2020 </h3> <!-- <-Will remove after creating the toggle -->
+                <h2 class="team-roster-title center-align">2019-2020 Core Team</h2>
                 <div class="row">
                     <div class="col s12 m8 offset-m2 l4 offset-l4">
                         <div class="card white-card">
@@ -671,7 +680,31 @@
                     </div>
                 </div>
             </div>
-        </div>
+
+
+        <script>
+           function openInfo(evt, webInfo) {
+             var i, tabcontent, tablinks;
+
+             tabcontent = document.getElementsByClassName("tabcontent");
+             for (i = 0; i < tabcontent.length; i++) {
+               tabcontent[i].style.display = "none";
+             }
+
+             tablinks = document.getElementsByClassName("tablinks");
+             for (i = 0; i < tablinks.length; i++) {
+               tablinks[i].className = tablinks[i].className.replace(" active", "");
+             }
+
+             document.getElementById(webInfo).style.display = "block";
+             evt.currentTarget.className += " active";
+           }
+
+           document.getElementById("defaultOpen").click();
+         </script>
+
+
+
         <!-- TEAM ROSTER START -->
 
     </div>
