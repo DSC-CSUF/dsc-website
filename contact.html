@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Developer Student Club CSUF - Powered By Google Developers</title>
+    <!-- TODO: Combine this statement with the one below it
+        SRM Developer Student Club (DSC SRM) is a Google Developers program for SRM IST students to learn mobile and web development skills. -->
+    <meta name="description"
+        content="Google collaborates with university students who are passionate about growing developer communities and support them with starting student clubs on their campuses.">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- jQuery CDN and Popper.js CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+
+    <!-- Materialize CDN -->
+    <link rel="stylesheet" href="./libs/materialize-v1.0.0/css/materialize.min.css">
+    <script src="./libs/materialize-v1.0.0/js/materialize.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+
+    <!-- OwlCarousel2 -->
+    <link rel="stylesheet" href="./libs/OwlCarousel2-2.3.4/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./libs/OwlCarousel2-2.3.4/css/owl.theme.default.min.css">
+
+    <!-- Open Sans Font -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Icons -->
+    <script src="https://kit.fontawesome.com/6aec46af78.js"></script>
+
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/team.css'>
+</head>
+
+<body>
+
+    <!-- PRELOADER START -->
+    <div class="preloader-background">
+        <div class="loading">
+            <div class="loading-bar"></div>
+            <div class="loading-bar"></div>
+            <div class="loading-bar"></div>
+            <div class="loading-bar"></div>
+        </div>
+        <div class="blinking">
+            <p>Loading</p>
+        </div>
+    </div>
+    <!-- PRELOADER END -->
+
+    <!-- NAVBAR START -->
+    <div class="navbar-fixed">
+        <nav class="whiteNav" role="navigation">
+            <div class="nav-wrapper container">
+                <a href="./index.html" class="brand-logo">
+                    <div class="center-brand">
+                        <img class="dsc-logo" src="./images/dsc-logo-2.png">
+                        <span class="dsc-brand hide-on-small-only">&nbsp;&nbsp;DSC CSUF</span>
+                    </div>
+                </a>
+                <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <!--
+                    <li class="nav-item">
+                        <a class="nav-link" href="./events.html">Events</a>
+                    </li>
+                  -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="./team.html">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/dsc_csuf/" target="_blank"><i
+                                class="fab fa-instagram"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://twitter.com/DSCcsuf" target="_blank"><i
+                                class="fab fa-twitter"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://discord.gg/xA2RNz" target="_blank"><i
+                                            class="fab fa-discord"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/channel/UC7hCC5iPVwugjhopRwKT7eQ?view_as=subscriber"
+                      target="_blank"><i class="fab fa-youtube"></i></a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- NAVBAR END -->
+
+    <!-- SIDENAV START -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a class="menu-items" href="./index.html">Home</a>
+        </li>
+      <!--  <li><a class="menu-items" href="./events.html">Events</a></li> -->
+        <li><a class="menu-items" href="./team.html">Our Team</a></li>
+        <li><a class="menu-items" href="./contact.html">Contact</a></li>
+    </ul>
+    <!-- SIDENAV END -->
+
+    <!-- CONTENT START -->
+    <div class="main">
+
+        <!-- <div id="particles-js"></div>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> -->
+
+        <!-- TEAM ROSTER START -->
+        <!--
+            fas fa-globe social-icons
+            fab fa-linkedin-in social-icons
+            fab fa-github social-icons
+            fab fa-instagram social-icons
+        -->
+
+
+<div id="2020-2021" class= "tabcontent">  <!-- 2020-2021 toggle begin -->
+
+        <div class="team-roster-section">
+            <div class="container">
+                <h2 class="team-roster-title center-align">Contact the Team</h2>
+
+
+                <div class="row"> <!-- Top row -->
+                    <div class="col s12 m8 offset-m2 l4 offset-l4">
+                        <div class="card white-card">
+                            <div class="card-content black-text">
+                                <img class="card-img-core-team circle z-depth-3 activator"
+                                    src="./images/profiles/Shaleen.jpg">
+                                <p class="card-title">Shaleen Mathur</p>
+                                <p class="card-subtitle team-lead">Lead/President</p>
+                            </div>
+                            <div class="card-action center-align">
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title reveal-title grey-text text-darken-4">Contact Me<i
+                                        class="material-icons right">close</i></span>
+                                <p><a href = "mailto:shaleenmathur26@csu.fullerton.edu">shaleenmathur26@csu.fullerton.edu</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m8 offset-m2 l4">
+                        <div class="card white-card">
+                            <div class="card-content black-text">
+                                <img class="card-img-core-team circle z-depth-3 activator"
+                                    src="./images/profiles/Sagar.jpg">
+                                <p class="card-title">Sagar Joshi</p>
+                                <p class="card-subtitle technical-lead">Technical Lead</p>
+                            </div>
+                            <div class="card-action center-align">
+
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title reveal-title grey-text text-darken-4">Contact Me<i
+                                        class="material-icons right">close</i></span>
+                                <p><a href ="mailto:sagar0698@csu.fullerton.edu"> sagar0698@csu.fullerton.edu </a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m8 offset-m2 l4">
+                        <div class="card white-card">
+                            <div class="card-content black-text">
+                                <img class="card-img-core-team circle z-depth-3 activator"
+                                    src="./images/profiles/Sam.jpg">
+                                <p class="card-title">Sam Sandoval</p>
+                                <p class="card-subtitle technical-lead">Technical Lead</p>
+                            </div>
+                            <div class="card-action center-align">
+
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title reveal-title grey-text text-darken-4">Contact Me<i
+                                        class="material-icons right">close</i></span>
+                                <p><a href = "mailto:sjsandoval@csu.fullerton.edu"> sjsandoval@csu.fullerton.edu </a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                  </div> <!-- End TOp row -->
+
+<div class ="row"> <!-- row 2 -->
+                  <div class="col s12 m8 offset-m2 l4">
+                      <div class="card white-card">
+                          <div class="card-content black-text">
+                              <img class="card-img-core-team circle z-depth-3 activator"
+                                  src="./images/profiles/Jared.png">
+                              <p class="card-title">Jared Castaneda</p>
+                              <p class="card-subtitle business-lead">Digital Media Lead</p>
+                          </div>
+                          <div class="card-action center-align">
+
+                          </div>
+                          <div class="card-reveal">
+                              <span class="card-title reveal-title grey-text text-darken-4">Contact Me<i
+                                      class="material-icons right">close</i></span>
+                              <p><a href ="mailto:jaredcast@csu.fullerton.edu">jaredcast@csu.fullerton.edu</a</p>
+                          </div>
+                      </div>
+                  </div>
+
+
+                  <div class="col s12 m8 offset-m2 l4">
+                      <div class="card white-card">
+                          <div class="card-content black-text">
+                              <img class="card-img-core-team circle z-depth-3 activator"
+                                  src="./images/profiles/Tyler.png">
+                              <p class="card-title">Tyler Goodman</p>
+                              <p class="card-subtitle creatives-lead">UI/UX Engineer</p>
+                          </div>
+                          <div class="card-action center-align">
+
+                          </div>
+                          <div class="card-reveal">
+                              <span class="card-title reveal-title grey-text text-darken-4">Contact Me<i
+                                      class="material-icons right">close</i></span>
+                              <p><a href = "mailto:tygoodman@csu.fullerton.edu">tygoodman@csu.fullerton.edu </a></p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col s12 m8 offset-m2 l4">
+                      <div class="card white-card">
+                          <div class="card-content black-text">
+                              <img class="card-img-core-team circle z-depth-3 activator"
+                                  src="./images/profiles/Tiff.jpg">
+                              <p class="card-title">Tiffanny Hernaez</p>
+                              <p class="card-subtitle creatives-lead">Secretary</p>
+                          </div>
+                          <div class="card-action center-align">
+
+                          </div>
+                          <div class="card-reveal">
+                              <span class="card-title reveal-title grey-text text-darken-4">Contact Me<i
+                                      class="material-icons right">close</i></span>
+                              <p><a href = "mailto:tiffannyhernaez@csu.fullerton.edu">tiffannyhernaez@csu.fullerton.edu</a></p>
+                          </div>
+                      </div>
+                  </div>
+
+                </div>
+
+                <div class = "row"> <!-- 3rd Row  -->
+                  <div class="col s12 m8 offset-m2 l4">
+                      <div class="card white-card">
+                          <div class="card-content black-text">
+                              <img class="card-img-core-team circle z-depth-3 activator"
+                                  src="./images/profiles/holland.jpg">
+                              <p class="card-title">Holland Ho</p>
+                              <p class="card-subtitle business-lead">Mentor</p>
+                          </div>
+                          <div class="card-action center-align">
+
+                          </div>
+                          <div class="card-reveal">
+                              <span class="card-title reveal-title grey-text text-darken-4">Contact Me<i
+                                      class="material-icons right">close</i></span>
+                              <p><a href ="mailto:Ho.holland1999@csu.fullerton.edu"> Ho.holland1999@csu.fullerton.edu</a></p>
+                          </div>
+                      </div>
+                  </div>
+
+
+
+                    <div class="col s12 m8 offset-m2 l4">
+                        <div class="card white-card">
+                            <div class="card-content black-text">
+                                <img class="card-img-core-team circle z-depth-3 activator"
+                                    src="./images/profiles/Anjali.jpg">
+                                <p class="card-title">Anjali Iyer</p>
+                                <p class="card-subtitle public-relations-lead">Program Coordinator</p>
+                            </div>
+                            <div class="card-action center-align">
+
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title reveal-title grey-text text-darken-4">Contact Me<i
+                                        class="material-icons right">close</i></span>
+                                <p><a href = "mailto:anjali.iyer@csu.fullerton.edu">anjali.iyer@csu.fullerton.edu</a>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="col s12 m8 offset-m2 l4">
+                        <div class="card white-card">
+                            <div class="card-content black-text">
+                                <img class="card-img-core-team circle z-depth-3 activator"
+                                    src="./images/profiles/Kevin.jpg">
+                                <p class="card-title">Kevin Nguyen</p>
+                                <p class="card-subtitle business-lead">Webmaster</p>
+                            </div>
+                            <div class="card-action center-align">
+
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title reveal-title grey-text text-darken-4">Contact Me<i
+                                        class="material-icons right">close</i></span>
+                                <p><a href = "mailto:kevin5nguyen1@csu.fullerton.edu">kevin5nguyen1@csu.fullerton.edu</a></p>
+                            </div>
+                        </div>
+                    </div>
+                  </div> <!-- End of 3rd ROW -->
+
+                  <div class = "row"> <!-- 4th ROW -->
+
+                    <div class="col s12 m8 offset-m2 l4">
+                        <div class="card white-card">
+                            <div class="card-content black-text">
+                                <img class="card-img-core-team circle z-depth-3 activator"
+                                    src="./images/profiles/blank">
+                                <p class="card-title">Kriti Rai Saini</p>
+                                <p class="card-subtitle business-lead">Treasurer</p>
+                            </div>
+                            <div class="card-action center-align">
+
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title reveal-title grey-text text-darken-4">Contact Me<i
+                                        class="material-icons right">close</i></span>
+                                <a href = "mailto:kritirais@csu.fullerton.edu">kritirais@csu.fullerton.edu</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div > <!-- End 5th Row -->
+
+
+
+
+
+
+
+                  </div>
+              </div>
+</div> <!-- end 2020-2021 tab -->
+
+
+
+
+
+
+        <!-- TEAM ROSTER START -->
+
+    </div>
+    <!-- CONTENT END -->
+
+    </div>
+    <!-- CONTENT END -->
+
+    <!-- FOOTER START -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <p class="text-gray footer-title">DSC CSUF - Powered by Google Developers</p>
+                    <!-- <p class="text-gray footer-location">California State University Fullerton
+                        <br>Fullerton, CA 92831
+                    </p> -->
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-gray">
+            <div class="container">
+                <h6><a href="https://github.com/djauxel/dsc-website-boilerplate">Made with template provided by DSC CSUSM</a></h3>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <script src='./js/team.js'></script>
+    <!-- <script src='./js/particles.js'></script> -->
+    <script src="./libs/OwlCarousel2-2.3.4/js/owl.carousel.min.js"></script>
+</body>
+
+</html>
