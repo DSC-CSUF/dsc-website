@@ -1,13 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #FFFFFF;
-    overflow-x: hidden;
 }
-
-.text-gray {
-    color: #4E4E4E;
-}
-
 
 /* ---- Preloader ---- */
 .preloader-background {
@@ -144,7 +138,7 @@ nav ul a:hover {
 }
 
 .header-section {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
 }
@@ -184,260 +178,134 @@ canvas {
     display: block;
     vertical-align: bottom;
     z-index: -1;
-    height: 100%;
-    width: 100%;
 }
 
 /* ---- particles.js container ---- */
 #particles-js {
-    z-index: -2;
-    position: fixed;
+    position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: #FFFFFF;
     background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    top: 0px;
-    left: 0px;
 }
 
-/* ---- Landing ---- */
-.landing-container {
-    position: absolute;
-    z-index: 100;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+/* ---- About ---- */
+.about-section {
+    /* background-color: black; */
+    height: 100vh;
 }
 
-.landing-title {
+.about-section-flex {
+    display: flex;
+    align-items: center;
+}
+
+.about-section-img {
+    background-image: url('../images/index/i1.svg');
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 100vh;
+}
+
+.about-text-area {
     text-align: center;
-    font-size: 4rem;
-    font-weight: 600;
-    color:  #4E4E4E;
+    /* padding-top: 99px;
+    padding-bottom: 99px; */
 }
 
-.landing-desciption {
-    text-align: center;
-    font-size: 1.35rem;
-    color:  #4E4E4E;
-    padding-left: 80px;
-    padding-right: 80px;
+@media only screen and (min-width: 768px) {
+    .about-text-area {
+        margin-left: 16.66667%;
+        margin-right: 16.66667%;
+    }
 }
 
-.landing-section {
-    background-color:  #4E4E4E;
-    height: 100vh;
-    width: 100%;
+.row .col {
+    padding: 0;
 }
 
-.overlay {
-    background-color: rgba(0, 0, 0, 0.6) !important;
-    width: 100vw;
-    height: 100vh;
+.about-title {
+    margin-top: 30px;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 2.25rem;
 }
 
-.owl-carousel {
-    z-index: 0!important;
+.text-white {
+    color: #FFFFFF;
 }
 
-.slideImg {
-    position: relative;
-    background-size: cover !important;
-    background-position: center !important;
-    width: 100vw;
-    height: 100vh;
-}
-
-#slide1 {
-    background: url('../images/events/1.jpg');
-}
-
-#slide2 {
-    background: url('../images/events/2.jpg');
-}
-
-#slide3 {
-    background: url('../images/events/3.jpg');
-}
-
-#slide4 {
-    background: url('../images/events/4.jpg');
-}
-
-#slide5 {
-    background: url('../images/events/5.jpg');
-}
-
-#slide6 {
-    background: url('../images/events/6.jpg');
-}
-
-#owl-demo .item img {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-}
-
-/* ---- Team Roster ---- */
-.team-roster-title {
+.text-gray {
     color: #4E4E4E;
-    font-size: 2.5rem;
-    font-weight: 700 !important;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
 }
 
-.card-action {
-    border-top: 0px !important;
+.description {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 1.125rem;
+    line-height: 1.5em;
 }
 
-.card .card-content p {
-    margin-block-start: 0;
-    margin-block-end: 0;
+.about-learn-more {
+    color: #FFFFFF !important;
+    background-color: #DB4437 !important;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 175px;
+    font-size: 1rem;
 }
 
-.white-card {
-    background-color: #FFFFFF;
+.about-learn-more:hover {
+    background-color: #DB4437;
 }
 
-.card-img {
-    height: 125px;
-    width: 125px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+
+.domains-section .row {
+    margin-bottom: 0;
 }
 
-.card-img-core-team {
-    height: 125px;
-    width: 125px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    cursor: pointer;
+@media only screen and (max-width: 500px) {
+    .round-divs {
+        height: 65px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
 }
 
-.card-title {
+.bg-blue {
+    background: #4285F4;
+}
+
+.bg-red {
+    background: #DB4437;
+}
+
+.bg-yellow {
+    background: #F4B400;
+}
+
+.bg-green {
+    background: #0F9D58;
+}
+
+.domains-type {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.5rem;
     text-align: center;
-    color: #4E4E4E;
-    line-height: 1.25rem !important;
-    margin-top: 20px !important;
-    margin-bottom: 0 !important;
-    font-size: 1.05rem !important;
-    font-weight: 700 !important;
-}
-
-.card-subtitle {
-    text-align: center;
-    margin-top: 8px !important;
-    font-weight: 600;
-}
-
-.reveal-title {
-    text-align: left;
-    font-weight: 700 !important;
-}
-
-.team-lead {
-    color: #FF69B4;
-}
-
-.faculty-advisor {
-    color: #9D69A3;
-}
-
-.creatives-lead {
-    color: #0F9D58;
-}
-
-.business-lead {
-    color: #4285F4;
-}
-
-.public-relations-lead {
-    color: #F4B400;
-}
-
-.technical-lead {
-    color: #DB4437;
-}
-
-.team-member {
-    color: #6c757D;
-}
-
-.social-icons {
-    font-size: 20px !important;
-    margin-left: 6px !important;
-    margin-right: 6px !important;
-}
-
-@media only screen and (max-width: 600px) {
-    .social-icons {
-        font-size: 20px !important;
-        margin-left: 20px !important;
-        margin-right: 20px !important;
-    }
-}
-
-@media only screen and (min-width: 601px) and (max-width: 992px) {
-    .social-icons {
-        font-size: 20px !important;
-        margin-left: 15px !important;
-        margin-right: 15px !important;
-    }
-
-    .row .col {
-        padding: 0 0!important;
-    }
-}
-
-@media only screen and (min-width: 993px) {
-    .social-icons {
-        font-size: 20px !important;
-        margin-left: 6px !important;
-        margin-right: 6px !important;
-    }
-
-    .row .col {
-        padding: 0 .75rem!important;
-    }
-}
-
-.card-action a {
-    margin-right: 0 !important;
-}
-
-#portfolio {
-    color: #000000;
-}
-
-#linkedin {
-    color: #0077B5;
-}
-
-#github {
-    color: #000000;
-}
-
-#instagram {
-    color: #BC2A8D;
-}
-
-#twitter {
-    color: #1DA1F2;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 /* ---- Contact ---- */
-.contact-section .row .col {
-    padding: 0 .75rem!important;
-}
-
 .contact-section {
     height: 75vh;
     display: flex;
