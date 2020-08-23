@@ -219,10 +219,8 @@ canvas {
     padding-bottom: 99px; */
 }
 
-#offer-title, h2 {
+#title {
     text-align: center;
-    padding-left:0;
-
 }
 
 @media only screen and (min-width: 768px) {
