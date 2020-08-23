@@ -219,7 +219,7 @@ canvas {
     padding-bottom: 99px; */
 }
 
-.offer-title {
+#offer-title, h2 {
     text-align: center;
 }
 
