@@ -219,7 +219,7 @@ canvas {
     padding-bottom: 99px; */
 }
 
-#offer-title {
+.offer-title {
     text-align: center;
 }
 
@@ -586,9 +586,4 @@ canvas {
 
 .footer-code {
     color: #000000;
-}
-
-.bs-example{
-    margin: 20px; 
-    display: flex;       
 }
