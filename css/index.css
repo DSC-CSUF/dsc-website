@@ -219,8 +219,20 @@ canvas {
     padding-bottom: 99px; */
 }
 
-#title {
+#Gallery {
     text-align: center;
+}
+
+.offer-text-area {
+    text-align: left;
+}
+
+.What-we-offer h2 {
+    text-align: center;
+}
+
+#description {
+    text-align: justify;
 }
 
 @media only screen and (min-width: 768px) {
