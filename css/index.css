@@ -221,6 +221,8 @@ canvas {
 
 #offer-title, h2 {
     text-align: center;
+    padding-left:0;
+
 }
 
 @media only screen and (min-width: 768px) {
