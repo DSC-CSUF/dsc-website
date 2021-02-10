@@ -212,6 +212,15 @@ canvas {
     width: auto;
     height: 100vh;
 }
+.SolutionChallenge-section-img {
+    background-image: url('../images/gallery/DSC-SolutionChallenge.png');
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 100vh;
+}
+
 
 .about-text-area {
     text-align: center;
